@@ -16,7 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from Smpo_App1 import views as v1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('app1/', v1.vista1),
+
+
 ]
