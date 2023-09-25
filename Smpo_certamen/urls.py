@@ -20,7 +20,9 @@ from Smpo_App1 import views as v1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('app1/', v1.vista1),
+    path('vista1/', v1.vista1),
+    path('vista2/', v1.vista2),
+
 
 
 ]
